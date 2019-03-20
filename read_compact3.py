@@ -8,6 +8,8 @@ from datetime import datetime as dt;
 from datetime import timedelta;
 import time
 
+#First change made
+
 def toYearFraction(date):
     def sinceEpoch(date): # returns seconds since epoch
         return time.mktime(date.timetuple())
